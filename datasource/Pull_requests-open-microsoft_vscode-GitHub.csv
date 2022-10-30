@@ -1,0 +1,344 @@
+﻿文本
+Add select all
+Fix typo in comment
+Pick up latest markdown LS
+Show progress when storing edit session as part of Continue On flow
+Fix text of IW command palette entries (#164860)
+Remove extra usages of Action in release notes code
+Make IAction properties readonly
+Interactive window- don't leave space for insert toolbar
+Comments view: add badge with the number of unresolved comments
+Some clean work
+Highlight label should not create extra span nodes
+Added rounded corner at the focus line for status bar
+When filtering a tree don't hide unresolved folders (#66971)
+api feedback
+Remove the  since we have modes in the go to file
+Fix link FileWillCreateEvent.waitUntil inner link
+change conditional branch
+Fixes Terminal: Focus Terminal Tabs view command not working
+Chi
+Add 'Fuzzy Match' toggle to tree find widget (#116286)
+Corrected checkboxes on autoLockGroups settings UI (Fixes #164367)
+Don't run setDirty while IME input is unconfirmed.
+fixed some typos
+Try to skip removing list dom nodes when a list is being rapidly scrolled
+Prioritize activating extensions which contribute a fileSystemProvider for the current workspace
+Add list of strings option to editor.fontFamily
+Try passing offset to editors on layout
+Binding notebook editor to search model
+"Fix Setting to disable loop of ""next change"" in diff view #163331"
+Bump actions/setup-python from 2 to 4
+Updates custom menu borders and item styles
+Allow to configure the separator for all paths instead of just relative pahts
+Look for argv.json at ~/.config/[product-name]/argv.json (XDG convention)
+"extract generic action widget, list, and action item renderer"
+Retry request to extension gallery for raw gallery extensions
+Specify window consistently with matchMedia calls in browser.ts
+Fix tasks status incorrect #163393
+Search DiffIdentityProvider
+fix IExtensionRecommendationReson typo
+Add Sort Changes By Extension in the CSM View&Sort
+Handle tabbing to links in hovers
+Batch/defer history service navigation events
+ Add killOnServerStop to debug configuration
+Issue 163528/create edit breakpoint command
+Defers the WorkingCopyService.onDidContentChange event
+swc: generate sourcemaps
+Add new command copyOriginalLinesOfCurrentRange
+Update .devcontainer/README.md
+improve es5ClassCompat robustness
+Detail no longer disappear outside of the suggestion popup
+Move some more menu registration into registerAction2
+Add support for multiRange formatting
+Measure input latency and text render time
+Change scrolling behaviour of 'Next Problem' Fixes #156782
+Try using VS Code API for Emmet tests
+don't update custom menu bar top-level if focused
+Add multiple file creation with curly brackets pattern
+Add additional actions to CommentThread
+Replace which-pm with preferred-pm
+"Changes Position.toString format from (1,1) to (1:1)."
+"Adjusts Range.toString format from [1,1 -> 2,1] to [1:1..2:1) to indicate an half open interval."
+update focusRecentEditorAfterClose to be able to switch to left of closed tab
+fix: text overlay in replace input
+Add a setting to mark file(s) readonly
+Try clearing cached service worker data on window close
+Draft PR for the tree-sitter tokenization exploration (Fixes #161256)
+#149034 Select all when shift click in outline
+Fix recent history exclude not working
+WIP: Move corner when in a working tree with multiple versions
+Fix smoketests
+Rename leftover respectAutoSaveConfig variable to isRefactoring
+Add scripts links to package.json
+Visual fixes-context menu and breakpoint editor widget
+Add Remove Brackets Command
+fix #160018 - Markdown previewer with wrong baseUri
+Pass display language as a locale to Electron
+add diagnostic capability for markdown image links
+Promote registerResourceLabelFormatter API
+Add support for trigger points
+Enable quick fixes in the scm input
+Drag and Drop images into notebook markdown cells
+Temporarily disable input method interception.
+Fixes #159034
+Center actions items (#159517)
+debug: fix typo in replViewer.ts
+Add support for * in workspace symbol search
+fix #158606
+Switch first and second result in quickOpen if first result is the current editor
+Auto open diff editor on Refactor Preview
+Add history to new list/tree search/filter widget (#155578)
+Fix: make git commands work with keyboard
+When inlay hints appear/disappear rerender the sticky scroll
+Initial run of disabling and enabling activity bar badges
+Style Layout Controls on Windows to better align with Window Controls Style
+uri: fix URI#toString for IPV6 URIs
+fix: typos
+Allow different exception breakpoints from multiple debuggers to be shown at once
+Add tooltips to Window controls
+Update stickyScroll.css
+WIP: Add Add to closest .gitignore command
+Fix sticky tabs option
+Transform URIs of hover results
+Add support for a border below section headers in Sidebar and Panel
+Add support for a border between sidebar and panel titles and views
+Enable notebook web test
+Add ligature support to terminal take 3
+Phase I of #156633 Expose API for extensions to extend find/replace
+"Normallize drive letter to upper case when convert uri to FsPath, fix #155883"
+feat: baseConfigurationResolverService: pass args to command
+Closes #156527 expands the vscode.moveViews command to allow targeting of locations
+Closes #151681 adds an auxiliarybar contribution point
+Make file drag and drop in terminal editor work
+Fix KaTeX equation numbering in notebook preview
+feat: Add wordBreak editorOption and use it to lineBreakComputer function
+Expose snippet support registration
+Show number of selected lines in status bar
+feat: screencast mode move scale
+fix: click action opens a context menu not closed (#155001)
+add new titlebarvisiblity setting
+Update git config.followTagsWhenSync definition
+Remove repository.ts default parameter types
+Separate tab size and indent size
+Added new config to keep the same line when switching between diffEditors
+Fix markdown cell do not re-render when re-executed
+Added setting to run code actions on autosave
+Avoid the scroll top to be invalidated by out-of-date scroll height
+Fix Cmd-W without blocking other menu items
+enable middle mouse button to open links and go to definition
+"Add prompt to ""test on insiders"" to issue reporter"
+Add Column Range Support to MSBuild ProblemMatcher
+Add git switch alias
+Support variable fonts (#153291)
+Extend anythingQuickAccess to provide a quickAccess file search that ignores exclusions
+add extra info to formatOnType option.
+"Remove Requirement for ""Add to Watch"" to be in debug mode"
+ Fix repeated CWD entries when creating new terminal in multi-root workspace
+feat: .vuerc as json file
+Fix 152790 : Invalid regex message obscures search
+fix selected state for select box items
+Allow snippets' final placeholder ($0) to have choices
+Fix typo in Web (Codespaces) welcome screen
+Allow symbol search with multiple words
+Adding background transparency support for MacOS
+Fix category width in extensions for better presentation
+Allow text change events to report their source #150966
+Add nvm-exec support
+Add CursorMove trigger kind
+Allow stage/revertSelectedRanges keybinding not just in diffEditor
+Force update on Markdown preview webview visible
+"Fix $0 global replace with \U, \u, \L, and \l"
+Support nesting folders under nested-files
+Add ability to reverse the sort order in explorer
+Remove print value from Swift Code Snippets
+"Add option ""explorer.confirmDeletePermanently"""
+Configure whether filename or filepath comes first in SCM view
+feat: add setting for multi cursor limit
+Enable stash only if there is an initial commit
+feat: add Stash Staged option for Source Control view
+testing: first pass at related code api
+Add watcher to sashes to update positioning of watermark container
+Use --autostash for pull --rebase
+Fix --do-not-sync server argument is ignored when installing extension
+Respect NO_PROXY in getSystemProxyURI
+Add horizontal scrolling to disassembly view
+Switch VB language to different fork
+Added Run/Debug Test at Cursor to context menu
+Prepare to support Typescript Inlay Hints for Tuple Labels
+fix: White flash when opening a new window 
+Fix the word usages
+Fix #120826: Wrap extension page's title/subtitle with horizontal scrolling
+Search Editor: number input box & Toggle Context Lines button UI enha…
+Add supports for inline values as ts plugin
+Standalone configuration: use resource and language
+[server-cli] Fix empty ext management arguments
+Include tilde (~) in markdown syntax tokens
+Add support for parentheses in Context Expressions
+Handle cell changes only in Jupyter notebooks
+Fixes #145340
+"""Find"" jumps to nth match"
+145458 List: Support scroll by page
+feat: inlay hints typing debounce delay
+"modify the feature of quick input, when overflowed the elipsses shows…"
+Clarify description for viewId argument in vscode.openWith command
+fixes #141405
+WIP: Explore option for multiselect in QuickOpen picker
+Run DebugConfigurationProviders for the result type of another DebugConfigurationProvider
+Formatting issue in the documentation.
+Created a new command workbench.action.selectThemeByName that can be …
+Fix #139659 default keybinding
+Add option to hide title bar when not showing menu bar
+Don't show confirmation to windows local file access (microsoft#95670)
+Setup No Longer Add Folder to Startmenu Shortcut instead add the Application Shortcut Directly
+"Use Separate Options Configuration for Find (CMD+F, CTRL+F) and Selection Match (CMD+D, CTRL+D)"
+initial device code flow for non-supported urls
+fix: view zone position in diffEditor with hidden area
+Add ability to set custom command aliases
+Update notebook editor open focus selector.
+Adding tab navigation to language select hint
+handle webview focus on webviewWorkbenchService
+Add prompt to issue reporter asking users to test on insiders build before submitting report
+node-pty@0.11.0-beta13
+Update color picker to guess the correct format for 3 digit hex
+Add a special case for ignoring folders in git.
+Add python On Enter Rules
+Retain maximized group size when adding and removing groups or toggling side bar
+"Update the copy path commands to run whenever find dialog is not showing, rather than only when editor is not focused."
+Add explorer.autorevealExclude setting
+"Define new setting: ""git.statusArgs.untrackedFiles"""
+Check for onEnterRules that decrease indentation when determining new line indent
+Fix: find next match selection regex
+Fix unwanted extra spaces when pasting code with JSDoc
+Fix single line if/else and loop indentation for Typescript and PHP
+Fix unexpected tab completion when attempting to indent
+add repobeats to README.md
+Add inline completions api support for typescript
+Make word-swapping feature
+Update blockCommentCommand
+feat: custom configurations for hover widgets
+feat: Optimize completion range field
+fix typo
+Add workbench.editor.alwaysOpenInActiveGroupFromQuickOpen setting
+Implements Balanced Bracket Pair Delete
+Add command to delete remote tag (fix #104845)
+Make MSYS2 git compatible (not only Git for Windows)
+[Live Share] Fix for guest initiated debugging
+Add support for more merge-conflict comparisons
+Add detached extension host telemetry
+feat(git): added autoClosingPairs in language configuration files
+Fix repository field parsing in extension editing
+"Add: ""Close Other Repositories"" in git scm menu"
+Enable word selection with a key modifier.
+Correct case for icns files for Darwin/MacOS.
+Fix notebook UI overlap
+Fix more minor typos in comments
+fixed some minor typos
+Allow exact matches and excluded terms in fuzzy search
+Find in current file command
+Clean Up Whitespace on Enter
+Fixes #107398 - Implement persistence of closed repositories for the session
+Update merge-conflict extension
+Parameterize configureDefaultBuildTask command with task to set as default
+chore: enable browser-sandbox for snap
+Add horizontal scroll to extension details
+ci: switch to core18 for snap
+feat(scm): support pressing Esc to clear message
+Stop loop to next change at last change of file
+Editor tabs: prevent close button of last tab on wrapped row from right-justifying
+Update Stack Overflow tag in CONTRIBUTING.md
+linux: use GTK_USE_PORTAL=1 to support the XDG Desktop Portal
+fix typo in downloadIpc.ts
+add an option to always search the workspace for package.json
+add api for virtual file system provider
+add editor.rulers to TextEditor options for extensions
+npm extension - check for root package.json before findFiles
+Fixed padding property for quick pick vertical alignment
+"dont track keydown/keyup, fixes #58515"
+Add PullOptions to pull in git extension API
+Created a setting option for stopping loop to next change at last change of file
+declare module for git.d.ts
+[HTML] Support the tsserver resolving files relative to the html file
+Fix some code issues in PieceTree impl
+fix: typo in menusExtensionPoint
+[folding] provide a toggle for non-selection aware fold level commands
+remove arbitrary 600 pixel limit on quick input widget
+Fixes #117537: Allow coping rich text when 'editor.fontFamily' has fallback fonts
+Fixes #90125 - Add a task instancePolicy to task runOptions
+avoid stray console log in code.
+Improve detection of line boundary assertions (Part 1 for issue #116445)
+Skip empty find match at the end of previous match (Part 2 for issue #116445)
+Optionally fall back to CWD as default path in file dialogs
+Add transition to window buttons
+Git: Add commands for staging/unstaging hunks
+Addresses single line if/for/while/etc indentation
+Add git switch command
+Fix 100725: Allow empty repositories to be synced
+Block mouse interaction while breadcrumbs/selectboxcustom dropdown is visible
+Fixes #111754: Git - Checkout Type setting more resilient to incorrect values
+add config options for git clone and resolve filename too long in Windows
+add inputOption.activeBorder in dark theme
+Support git worktree directory detection
+resources#relativePath does not honour path casing strategy
+#fix: 107491
+Configuration variables: unsafe file path usage
+Expose output from executable debug adapter
+"Replace panel: allow to validate using keyboard any time, not only when replace string is active"
+support to delete remote tag from command palette.
+Pr/34997
+fix logic for NPS/Language survey prompt
+Added usage for workspace.openTunnel()
+Git status is not displayed in explorer sidebar with soft link
+Update imports for all files
+Update files in vscode/src/vs/code to improve the copyright headers as mentioned in #96747.
+make NotebookContentProvider parameter consistent
+fix(quickinput): make inputBox.enable work
+Add activation events for providing/resolving tasks (TaskProvider extension API)
+Fixes top and bottom border cut off on status bar item border
+editor use contenteditable instead of textarea
+Multiple selections with find and replace
+"Provide workbench.panel.location ""top"" option (microsoft#50984)"
+WIP fix #92858 - dynamic size extension header
+fix #26338
+Focus the quick pick back to the starting position
+Support using theme icons in webview iconPath
+Allow enter shortcut#85850
+Fix #90429 Hide Replace when Find is focused
+Enable ok button for extensions using quickpick
+"Register Save All keyboard shortcut on Linux, too"
+Vulnerable Version Fix
+Add web-standalone build
+Fix failure of revealing webview with viewColumn which does not exist
+Invertible marker search
+Change @ts-nocheck to @ts-check in the interactive walkthrough
+Support for tokens expanding to search include patterns
+"Fix auto-indent on paste, second line and after"
+Enables dependant variable substitution
+Better top
+Find in selection: Don't expand a multiline find scope to line start/end (#80008)
+Selectable Fast Scroll Key
+Open existing keybindings in new editor
+Option for find widget to have max width
+Add folding from end of region
+Option for auto closing comments
+this may fix #51458
+Fixed wrong tooltip on extension page uninstall button after installing extension.
+fix #23627 (proper default value in extension settings contribution)
+Use schemastore catalog to add schema associations for json files
+Fixes #68694 moving multiple consequitive lines
+Fixes #44237: Add column number in tasks
+Add simple expandable instanceLimit option in tasks. Fixes #32264
+Add follow on Twitter badge
+Update README
+Make extension detail styles more responsive
+Don't skip children with script source attached
+fix issue #41558 - keybindings editor header no longer selects first item 
+Store translation paths relative to the extensions directory
+Add support for predefined variable ${fileDirbasename}
+Fix some missing indentationRules and indentation on ctrl+shift+enter
+Promise with no error log error.stack
+Fix #38321 -- Provide navigation through git merge conflicts with codelens
+#40288 find replace in resolved config variable
+Allow an indent increase pattern to span multiple lines
+ Add the Chinese document translated from English
+Add find all button

@@ -1,0 +1,386 @@
+﻿文本,文本1
+How do you format code in Visual Studio Code (VSCode)?,"
+                    
+            
+        
+            
+                    
+                        
+                    
+                
+                    
+                        This question's answers are a community effort. Edit existing answers to improve this post. It is not currently accepting new answers or interactions.
+                        
+                    
+                
+            
+        
+
+
+    
+
+What is the equivalent of Ctrl + K + F and Ctrl + K + D on Windows in Visual Studio for formatting, or ""beautifying"" code in the Visual Studio Code editor?
+    "
+How do I hide certain files from the sidebar in Visual Studio Code?,"
+                
+In Visual Studio Code, what setting can be configured, using file patterns, to hide files from view in the sidebar's file-explorer?
+I would like to hide certain groups of files, like .meta and .git files.
+    "
+Run / Open VSCode from Mac Terminal,"
+                
+I'd like to run / open Visual Studio Code from the Mac OSX Terminal by running this command code ..  I found instructions here:
+
+https://code.visualstudio.com/Docs/setup
+
+Apparently I need to include this in my .bashrc file, so I did, but to no avail.
+
+code () {
+    if [[ $# = 0 ]]
+    then
+        open -a ""Visual Studio Code""
+    else
+        [[ $1 = /* ]] && F=""$1"" || F=""$PWD/${1#./}""
+        open -a ""Visual Studio Code"" --args ""$F""
+    fi
+}
+
+
+I edited the .bashrc file here:
+
+~/.bashrc which points to /Users/username/.bashrc
+
+Which .bashrc should I be editing?
+    "
+VSCode regex find & replace submatch math?,"
+                
+%s@{fileID: \(213[0-9]*\)@\='{fileID: '.(submatch(1)-1900)@
+
+
+I am using this regex search and replace command in vim to subtract a constant from each matching id.
+
+I can do the regex find in VSCode but how can I reference the submatch for maths & replace? submatch(1) does not work in VSCode?
+
+Thanks.
+    "
+Should I commit the .vscode folder to source control?,"
+                
+Is the .vscode folder meant to be committed to source control? 
+
+In a fresh project, the folder is empty, except the settings.json file. What kind of things would go into this folder? Is it machine-specific, developer-specific like the .vs folder and thus not be committed? Or should all developers share this folder and thus it should be committed?
+
+The comment at the top of the file .vscode/settings.json states:
+
+// Place your settings in this file to overwrite default and user settings.
+{
+}
+
+
+This seems to imply that the folder should contain project-specific settings and thus be included in source. Also, this post on UserVoice seems to imply some typings would go in there, also suggesting that it should be committed. 
+    "
+Select all occurrences of selected word in VSCode,"
+                
+Are there any trick or extension to select all instances of selected word in visual studio code, to facilitate editing or deleting those instances without search and replace, like ِAlt+F3 in sublime text
+    "
+What is a 'workspace' in Visual Studio Code?,"
+                
+For example, Visual Studio Code talks about applying settings at the user level vs the workspace level.
+On the one hand,
+
+it could refer to a project directory that you have opened; or
+it could refer to everything you have opened in a particular window.
+
+The page referenced above says
+
+""Workspace: These settings are stored inside your workspace
+in a .vscode folder and only apply when the workspace is opened.""
+
+    "
+Choose folders to be ignored during search in VS Code,"
+                
+Right now when I use ⌘+O to search for files, the fuzzy matching appears to operate over all files in the current project. Unfortunately, this includes a number of files from build and vendor directories. So, for instance, if I want to search for all JavaScript files and do ⌘+O and type .js in, the file and symbol results include around 1500 hits and all of them except the two ones are complete noise.
+
+Is there a way to specify certain directories to be ignored for purpose of search?
+    "
+How to restart VScode after editing extension's config?,"
+                
+VScode notifies you when you open a config of an extension:
+
+remember to Restart VScode
+
+
+But it says nothing about how. They use capital letter for the restart word, so normally it should mean something if you emphasize an appellation. Is there some hidden restart button or a key shortcut?
+How do I restart the IDE?
+    "
+How do I press and hold a key and have it repeat in VSCode?,"
+                
+I use the vim plugin and I typically scroll in vim by just holding j. In VSCode holding j just does a single j command, no matter how long it's held for. 
+
+Even in vanilla vscode this also doesn't work - problematic if you're trying to type long blocks of ########################### for comment separators. Any idea how to enable this functionality? 
+    "
+VSCode single to double quote automatic replace,"
+                
+When I execute a Format Document command on a Vue Component.vue file VSCode replace all single quoted string with double quoted string.
+
+In my specific case this rule conflicts with electron-vue lint configuration that require singlequote.
+
+I don't have prettier extensions installed (no prettier.singleQuote in my setting)
+
+How to customize VSCode to avoid this? 
+    "
+"How can I commit some changes to a file, but not others, in VSCode?","
+                
+VSCode has excellent git integration but I can't find a way to do partial commits. Basically, I want to be able to select specific changes in my files and stage them without staging the entire file. This functionality is supported by the git CLI, Github native apps, and Atom plugins.
+
+Mostly making sure I'm not just missing something before opening a ticket for it.
+    "
+Automatically hard wrap lines at column in VSCode,"
+                
+How can I automatically hard wrap lines in VSCode? By that I mean if a line reaches a specified column, automatically insert a newline at the word boundary closest to that column without going over. Vim has a setting called textwidth that does this that I like to use when editing Markdown. It doesn't seem like VSCode does, as far as I can tell. It just has ways to control softwrapping.
+    "
+VSCode Change Default Terminal,"
+                
+I am using Visual Studio Code on my Windows 10 PC. I want to change my default terminal from Windows PowerShell to Bash on Ubuntu (on Windows). 
+
+How can I do that?
+    "
+How to downgrade vscode,"
+                
+I am experiencing a problem with debugging in vscode just after the last update. There's something going on (https://github.com/Microsoft/vscode/issues/45657)
+
+I'd like to check the previous version to see if my case is a problem here or in vscode but I can not find instructions on how to downgrade (I suppose it's possible)
+    "
+VSCode prevent file Explorer from jumping [duplicate],"
+                    
+            
+        
+            
+                
+                    
+                        This question already has answers here:
+                        
+                    
+                
+            
+                    
+                        How do I stop VSCode from the Side Bar moving to the folder that the current file is in?
+                            
+                                (3 answers)
+                            
+                    
+                Closed 2 years ago.
+        
+
+
+    
+
+Is there a way to prevent VSCode from jumping all over the place when closing a tab?  It jumps to the location of the selected tab, but this is very disorienting when opening various files to inspect within a lib.
+    "
+VSCode: How to Split Editor Vertically,"
+                
+In Visual Studio code, a while ago, when I used View->Split Editor, it would split vertically. (One file on the left and one file on the right.)
+
+I updated Visual Studio Code and when when I do View->Split Editor, it always splits horizontally. (One file on the top and one file on the bottom.)
+
+How can I split vertically?
+    "
+How to debug Angular with VSCode?,"
+                
+How do I get configure Angular and VSCode so that my breakpoints work?
+    "
+VSCode keybinding to hide Explorer,"
+                
+Is there any keybinding in VSCode that can hide Explorer, like Ctrl+Shift+E works for showing it?
+I hate reaching for the mouse and I don't have enough screen space to keep Explorer always on.
+    "
+"How to exclude file extensions and languages from ""format on save"" in VSCode?","
+                
+Currently in VSCode settings you can configure format on save as following: 
+
+""editor.formatOnSave"": true
+
+
+I want to exclude some file extensions, for example only format JavaScript but not HTML files.
+    "
+How do I jump to a closing bracket in Visual Studio Code?,"
+                
+In VSCode when I type a bracket, e.g '(', it automatically creates the ending bracket: ')'.
+Are there any shortcuts to jump to the closing bracket or parenthesis, without pressing the 'End' key?
+
+I found a way to do in Sublime Text 2 that did exactly that, using a Regex in the User's Key Bindings, but couldn't find a way to do it in VSCode.
+    "
+How to add custom code snippets in VSCode?,"
+                
+Is it possible to add custom code snippets in Visual Studio Code? And if so, how? VSCode is based on Atom, so it should be possible.
+    "
+VSCode showing only one file in the tab bar (can't open multiple files),"
+                
+I hit some shortcut and I can't find the setting the turn it off. But opening multiple files doesn't show different tabs.
+
+Here's what I'm seeing
+
+
+
+But this is what I'm expecting when I open a new tab
+
+
+    "
+How do I get a cursor on every line in vscode,"
+                
+I'm trying to use the multi cursor functionality of vscode on a large(ish) file.
+the file is too large to select every line individually with ctrl-alt-up or down. In sublime-text I would select everything and push ctrl-shift-l. Is there a similar thing in vscode. I've tried using a regex search for ^, but that gives me an error stating ""Expression matches everything"". 
+    "
+"vscode imports import console = require(""console""); automatically","
+                
+import console = require(""console"");
+
+
+console. << I type . and above gets imported automatically in VScode. Anybody knows how to disable that?
+
+(I assume it is one of my extensions. Probably Prettier.)
+
+edit:
+it only happens in React Typescript environment. not in Typescript without react.
+    "
+How to open Visual Studio Code from the command line on OSX?,"
+                
+The docs mention an executable called code, but I'm not sure where I can find that so I can put it on my path. The zip I downloaded from the VSCode site did not include any such executable. (I am able to run the .app just fine.)
+
+Is this a Windows-only thing? 
+    "
+Activating Anaconda Environment in VsCode,"
+                
+I have Anaconda working on my system and VsCode working, but how do I get VsCode to activate a specific environment when running my python script?
+    "
+VSCode cannot find module '@angular/core' or any other modules,"
+                
+My project was generated with Angular CLI version 1.2.6.
+I can compile the project and it works fine, but I always get error in VSCode telling me:
+
+cannot  find module '@angular/core'
+cannot find module '@angular/router'
+cannot find module .....
+
+
+
+
+I have attached  content of my tsconfig.json file
+this has been  really frustrating for me, spending 2 hours to figure out what is wrong,
+I have also uninstalled and reinstalled the VSCode
+it doesn't work.
+Here is my environment specification:
+@angular/cli: 1.2.6
+node: 6.9.1
+os: win32 x64
+@angular/animations: 4.3.4
+@angular/common: 4.3.4
+@angular/compiler: 4.3.4
+@angular/core: 4.3.4
+@angular/forms: 4.3.4
+@angular/http: 4.3.4
+@angular/platform-browser: 4.3.4
+@angular/platform-browser-dynamic: 4.3.4
+@angular/router: 4.3.4
+@angular/cli: 1.2.6
+@angular/compiler-cli: 4.3.4
+@angular/language-service: 4.3.4
+
+OS: Microsoft vs 10 enterprise
+project root folder
+.angular-cli.json
+.editorconfig
+.gitignore
+.vscode
+e2e
+karma.conf.js
+node_modules
+package.json
+protractor.conf.js
+README.md
+src
+tsconfig.json
+tslint.json
+
+node_modules folder
+-@angular
+--animations
+--cli
+--common
+--compiler
+--compiler-cli
+--core
+---@angular
+---bundles
+---core.d.ts
+---core.metadata.json
+---package.json
+---public_api.d.ts
+---README.md
+---src
+---testing
+---testing.d.ts
+---testing.metadata.json
+--forms
+--http
+--language-service
+--platform-browser
+--platform-browser-dynamic
+--router
+--tsc-wrapped
+@ng-bootstrap
+@ngtools
+-@types
+--jasmine
+--jasminewd2
+--node
+--q
+--selenium-webdriver
+
+tsconfig.json:
+{
+  ""compileOnSave"": false,
+  ""compilerOptions"": {
+    ""outDir"": ""./dist/out-tsc"",
+    ""sourceMap"": true,
+    ""declaration"": false,
+    ""moduleResolution"": ""node"",
+    ""emitDecoratorMetadata"": true,
+    ""experimentalDecorators"": true,
+    ""target"": ""es5"",
+    ""typeRoots"": [
+      ""node_modules/@types""
+    ],
+    ""lib"": [
+      ""es2016"",
+      ""dom""
+    ]
+  }
+}
+
+    "
+Format Curly Braces on Same Line in C++ VSCode,"
+                
+I'm using the C++ Extension for VSCode (Visual Studio Code).
+
+Currently, I have the setting ""C_Cpp.clang_format_formatOnSave"" set to true.
+
+This format's my code when I save my C++ file. But the format results in curly braces on new lines rather than on the same line.
+
+Current C++ VSCode Formatted
+
+for (int i = 0; i < 10; i++)
+{
+    // ...
+}
+
+
+What I Want C++ VSCode Formatted Code to Look Like
+
+for (int i = 0; i < 10; i++) {
+    // ...
+}
+
+
+I also have editor.wrappingIndent set to ""same"".
+
+How can I make curly braces in C++ format on the same line in Visual Studio Code?
+    "
