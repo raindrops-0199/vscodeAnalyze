@@ -1,5 +1,7 @@
-  我们对vscode的PR，Issue等进行了数据爬取，统计与建模分析，从而进行了需求的抽取与分类
-  本仓库提供了我们所爬取的源数据，统计分析的源代码和最终的报告。
+# Using NLTK and matplotlib to visualize and analyze GitHub PR and Issues  
+
+我们以vscode为例，对其GitHub仓库的PR，Issue等进行了数据爬取，统计与建模分析，从而进行了需求的抽取与分类
+ 本仓库提供了我们所爬取的源数据，统计分析的源代码和最终的结果与报告。
 
 <hr></hr>
 
